@@ -1,9 +1,13 @@
 const home={
     window:'4',
     door:'5',
-    desk:'2'
+    desk:'2',
+    table:{
+        count:'1',
+        color:'white'
+    }
 };
 
-const {window,door,desk} = home;
+const {window,door,desk,table:{color}} = home;
 
-console.log(window, door , desk);
+console.log( `Table - ${color}`);
