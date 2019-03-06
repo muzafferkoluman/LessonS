@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="992941d3-45b7-4b57-9501-5fff6bbb5b15" name="Default" comment="Added Lesson One example">
-      <change afterPath="$PROJECT_DIR$/NodeJs/aritmetik-operatorler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/birlestirme-operatoru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/callback-fonksiyonlar-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/callback-fonksiyonlar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/console.log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/degiskenler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/diziler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/do-while.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/fonksiyonlar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/for.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/hata-yonetimi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/if-else.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/karsilastirma-operatorleri.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/kucuk-harf-duyarliligi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/mantiksal-operatorler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/nesneler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/scope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/setInterval-fonksiyonu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/setTimeOut-fonksiyonu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/use-strict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/while.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeJs/yorum-satirlari.js" afterDir="false" />
+    <list default="true" id="992941d3-45b7-4b57-9501-5fff6bbb5b15" name="Default" comment="RN name edit">
+      <change afterPath="$PROJECT_DIR$/NodeJs/Lesson-2-TemplateLiteral.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeJs/Lesson-1-Hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeJs/Lesson-1-Hello.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,14 +20,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeJs/Lesson-1-Hello.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="350">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NodeJs/yorum-satirlari.js">
+        <entry file="file://$PROJECT_DIR$/NodeJs/Lesson-2-TemplateLiteral.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--degiskenler.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--scope.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -71,12 +66,19 @@
         <option value="$PROJECT_DIR$/React-Native/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/NodeJs/Lesson-1-Hello.js" />
+        <option value="$PROJECT_DIR$/NodeJs/Lesson-2-TemplateLiteral.js" />
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1921" />
-    <option name="y" value="23" />
+    <option name="x" value="2293" />
+    <option name="y" value="24" />
     <option name="width" value="1537" />
     <option name="height" value="1056" />
   </component>
@@ -101,6 +103,16 @@
               <item name="LessonS" type="462c0819:PsiDirectoryNode" />
               <item name="NodeJs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LessonS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LessonS" type="462c0819:PsiDirectoryNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LessonS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LessonS" type="462c0819:PsiDirectoryNode" />
+              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -115,10 +127,11 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NodeJs" />
       <recent name="$PROJECT_DIR$/React" />
     </key>
   </component>
@@ -149,7 +162,12 @@
       <workItem from="1545405644497" duration="361000" />
       <workItem from="1545406165273" duration="25000" />
       <workItem from="1545406264093" duration="440000" />
-      <workItem from="1545406724340" duration="1499000" />
+      <workItem from="1545406724340" duration="2923000" />
+      <workItem from="1545648018246" duration="4477000" />
+      <workItem from="1546862900543" duration="158000" />
+      <workItem from="1551343701194" duration="111000" />
+      <workItem from="1551343824490" duration="553000" />
+      <workItem from="1551891009333" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="Create index js">
       <created>1545233970523</created>
@@ -172,17 +190,31 @@
       <option name="project" value="LOCAL" />
       <updated>1545408531200</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Lesson Two example">
+      <created>1545411576534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545411576534</updated>
+    </task>
+    <task id="LOCAL-00005" summary="RN name edit">
+      <created>1545411644007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545411644007</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3772000" />
+    <option name="totallyTimeSpent" value="10771000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="23" width="1537" height="1056" extended-state="0" />
+    <frame x="2293" y="24" width="1537" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24934037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25263852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,9 +229,11 @@
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +283,9 @@
     <MESSAGE value="Create index js" />
     <MESSAGE value="Added old examples" />
     <MESSAGE value="Added Lesson One example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lesson One example" />
+    <MESSAGE value="Added Lesson Two example" />
+    <MESSAGE value="RN name edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="RN name edit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -259,7 +295,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/LessonOne.js">
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--karsilastirma-operatorleri.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--aritmetik-operatorler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--birlestirme-operatoru.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--callback-fonksiyonlar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--callback-fonksiyonlar-2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--console.log.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--diziler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--do-while.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--hata-yonetimi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--if-else.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--nesneler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--setInterval-fonksiyonu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--setTimeOut-fonksiyonu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--use-strict.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--while.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--yorum-satirlari.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactNative/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/React/LessonDataSpread.js">
@@ -269,15 +372,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/React/LessonMap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/LessonOne.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--degiskenler.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson--scope.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJs/Lesson-1-Hello.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="350">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJs/yorum-satirlari.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/NodeJs/Lesson-2-TemplateLiteral.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

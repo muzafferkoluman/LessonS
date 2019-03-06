@@ -1,5 +1,24 @@
-var HW="Hello World",
-    count=2,
-    UserDataCount=5;
+function birinci(callback) {
+    setTimeout(function () {
+        console.log("birinci")
+        callback(ucuncu);
+    },500);
+}
+function ikinci(callback) {
+    setTimeout(function () {
+        console.log("ikinci")
+        callback();
+    },500)
+}
+function ucuncu() {
+    setTimeout(function () {
+        console.log("ucuncu")
+    },500)
+}
 
-console.log(HW,count + UserDataCount);
+
+
+//scope çok önemli
+
+
+birinci(ikinci);
