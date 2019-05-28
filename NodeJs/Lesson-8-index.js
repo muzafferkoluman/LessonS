@@ -1,5 +1,4 @@
-const  foo= require('./Lesson-8-modul').foo;
-const  toor= require('./Lesson-8-modul').toor;
+const  {foo, toor}= require('./Lesson-8-modul');
 
 
 console.log(foo());
