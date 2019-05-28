@@ -39,3 +39,6 @@ asenkronFonksiyon(4)
     .catch((error) => {
         console.log(error);
     })
+
+
+
