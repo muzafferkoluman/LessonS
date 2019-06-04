@@ -2,7 +2,7 @@
 //fs.writeFile() oncekini siler istenilen neyse o yazılır
 
 const fs = require('fs');
-fs.appendFile('file.txt','Merhaba dünya \n',(err)=>{
+fs.writeFile('file2.txt','Merhaba dünya \n',(err)=>{
     if(err)
         throw err;
     console.log('dosyaya ekleme yapıldı.')
