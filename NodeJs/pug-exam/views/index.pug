@@ -3,5 +3,38 @@ html
         title merhaba pug
 
     body
+        - var okul='dr nurettin'
+        - var sehir='istanbul'
+
+        =okul.toUpperCase()
+        br
+        | bulundugunuz şehir  #{sehir.toUpperCase()}
+        hr
+
+        - var sayi=23
+          if (sayi==1)
+            | sayi 1'dir
+          else if (sayi==2)
+            | sayi 2'dir
+          else
+            | sayi sayidir :)
+
+        hr
+
+        ul
+            each val in [1, 2, 3, 4, 5]
+                li= val
+        hr
+
+        ul
+            each val, index in ['zero', 'one', 'two']
+                li= index + ': ' + val
+
+        hr
+
+        =surname
+        br
         span(style="background-color:red")
-            |merhaba pug
+            |merhaba pug #{name} #{surname}
+        br
+        include footer
