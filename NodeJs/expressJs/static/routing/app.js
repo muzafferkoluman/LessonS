@@ -1,11 +1,18 @@
 const express = require('express');
 const app = express();
 
-const signIn = require('./routes/signin');
-const signUp = require('./routes/signup');
+const user = require('./routes/signin');
+const profile = require('./routes/signup');
 
-app.use('/user',signIn);
-app.use('/kullanici',signUp);
+//helper
+const isLogin = require('./helper/isLogin');
+
+app.use(isLogin);
+
+app.use('/user',user);
+app.use('/profile',profile);
+
+
 
 
 app.listen(3000);
