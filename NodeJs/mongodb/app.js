@@ -11,7 +11,22 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+mongoose.connect('mongodb://localhost/udemy', { useNewUrlParser: true , useUnifiedTopology: true })
+    .then(()=>{
+      console.log('Mongodb Baglandı kuruldu.')
+    })
+    .catch((err)=>{
+      console.log('hata oluştu')
+    });
 
+/* farklı yol
+mongoose.connection.on('open',()=>{
+  console.log('DB bağlandı.')
+});
+mongoose.connection.on('error',(err)=>{
+  console.log('DB hatası.', err)
+});
+*/
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
