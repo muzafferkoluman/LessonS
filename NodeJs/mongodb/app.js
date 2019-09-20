@@ -8,10 +8,12 @@ var mongoose = require('mongoose');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var books = require('./routes/books');
+
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/udemy', { useNewUrlParser: true , useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost/testmongo', { useNewUrlParser: true , useUnifiedTopology: true })
     .then(()=>{
       console.log('Mongodb Baglandı kuruldu.')
     })
@@ -40,6 +42,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/books', books);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
