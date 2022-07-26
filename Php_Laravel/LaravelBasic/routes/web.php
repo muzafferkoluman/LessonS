@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/anasayfa',[App::class,'index']);
+Route::get('/hakkimizda',[App::class,'hakkimizda']);
+
