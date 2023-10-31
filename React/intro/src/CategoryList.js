@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ListGroup, ListGroupItem,Badge } from "reactstrap";
+import { ListGroup, ListGroupItem } from "reactstrap";
 
 export default class CategoryList extends Component {
   state = {
