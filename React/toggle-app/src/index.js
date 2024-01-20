@@ -2,7 +2,9 @@ import React from "react"
 import ReactDOM  from "react-dom"
 
 function App(){
-    return <h1>Test</h1>
+    return <div>
+        <button style={{padding:10,color:"blue",fontSize:18}}>Click me</button>
+    </div>
 }
 
 // Bu eski yontem ile yapildi.
