@@ -6,7 +6,7 @@ const Collapse = (props) => {
   return (
     <div>
         <a
-          className="btn btn-primary"
+          className="btn btn-primary w-100"
           data-toggle="collapse"
           href={"#".concat(props.href)}
           role="button"
@@ -16,7 +16,7 @@ const Collapse = (props) => {
           Link with href
         </a>
         
-      <div className="collapse" id={props.href}>
+      <div className="collapse show" id={props.href}>
             {props.children}
       </div>
     </div>
