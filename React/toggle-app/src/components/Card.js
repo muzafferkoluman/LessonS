@@ -5,10 +5,7 @@ const Card = (props) => {
   console.log(props);
   return (
     <div className="card">
-      <img
-        className="card-img-top"
-        src={props.image}
-      />
+      <img className="card-img-top" src={props.image} />
       <div className="card-body text-center">
         <h5 className="card-title">{props.cardTitle}</h5>
         <p className="card-text">{props.cardText}</p>
@@ -18,6 +15,10 @@ const Card = (props) => {
       </div>
     </div>
   );
+};
+
+Card.defaultProps = {
+  cardTitle: "Default Card Title",
 };
 
 export default Card;
