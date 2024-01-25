@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
+/* This is very important */
 import React from "react";
 
 const Card = (props) => {
