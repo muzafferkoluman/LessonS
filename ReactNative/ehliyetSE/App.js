@@ -14,8 +14,12 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="QuizApp" component={QuizApp} />
         <Stack.Screen name="Playground" component={Playground} />
+        
       </Stack.Navigator>
+      
+
     </NavigationContainer>
+    
   );
 }
 

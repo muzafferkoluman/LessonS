@@ -2,13 +2,13 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBUOCz-6vgKjzlIXThkhMoQ92Ptnz_ZMWo",
-  authDomain: "ehliyet-926d7.firebaseapp.com",
-  projectId: "ehliyet-926d7",
-  storageBucket: "ehliyet-926d7.appspot.com",
-  messagingSenderId: "354536312148",
-  appId: "1:354536312148:web:6a86f9d0d206d09510ccc1",
-  measurementId: "G-723FR2DNJE",
+  apiKey: "AIzaSyC1m27xeaK_rstDSl_W5sJDBsAmrWBl2Z4",
+  authDomain: "ehliyetse-ff75e.firebaseapp.com",
+  projectId: "ehliyetse-ff75e",
+  storageBucket: "ehliyetse-ff75e.appspot.com",
+  messagingSenderId: "934621872810",
+  appId: "1:934621872810:web:63c8204894663d69b286d3",
+  measurementId: "G-7KYCQ5LFEL"
 };
 
 if (!firebase.apps.length){

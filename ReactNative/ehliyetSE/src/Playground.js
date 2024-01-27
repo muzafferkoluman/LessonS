@@ -17,18 +17,24 @@ const Playground = ({ route }) => {
 
   const { category } = route.params;
 
+  console.log(route)
+
   useEffect(() => {
-    getQuestions()
+    getQuestions();
   }, []);
+
+
 
   const getQuestions = async () => {
     setSelectedOptions({});
     setShowResults(false);
-    const db = firebase.firestore;
+    const db = firebase.firestore();
     const questionsRef = db.collection("questions");
     const snapshot = await questionsRef.where("category", "==", category).get();
+    console.log(snapshot + "  this is the question data -----------------------");
+
     if (snapshot.empty) {
-      console.log("No Snap");
+      console.log("No Matching");
       return;
     }
     const allQuestions = snapshot.docs.map((doc) => doc.data());
@@ -45,8 +51,8 @@ const Playground = ({ route }) => {
 
   const handleSubmit = () => {
     let correctAnswers = 0;
-    questions.forEach((questions, index) => {
-      if (selectedOptions[index] === question.correctOption) {
+    questions.forEach((item, index) => {
+      if (selectedOptions[`q${index}`] === item.correctOption) {
         correctAnswers++;
       }
     });
@@ -59,7 +65,7 @@ const Playground = ({ route }) => {
     <View style={styles.container}>
       <FlatList
         data={questions}
-        keyExtractor={({ item }, index) => index.toString()}
+        keyExtractor={(item, index) => index.toString()}
         renderItem={({ item, index }) => (
           <View style={styles.questionContainer}>
             <Text style={styles.question}>{item.question}</Text>
