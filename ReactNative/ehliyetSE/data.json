@@ -6,7 +6,7 @@
         "option3":"option3",
         "option4":"option4",
         "correctOption": 1,
-        "category":"music",
+        "category":"category1",
         "difficulty":"medium"
     },
     {
@@ -16,7 +16,7 @@
         "option3":"option3",
         "option4":"option4",
         "correctOption": 1,
-        "category":"music",
+        "category":"category2",
         "difficulty":"medium"
     },
     {
@@ -26,7 +26,7 @@
         "option3":"option3",
         "option4":"option4",
         "correctOption": 1,
-        "category":"music",
+        "category":"category3",
         "difficulty":"medium"
     },
     {
@@ -36,7 +36,7 @@
         "option3":"option3",
         "option4":"option4",
         "correctOption": 1,
-        "category":"music",
+        "category":"category4",
         "difficulty":"medium"
     }
 ]
