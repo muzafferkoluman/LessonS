@@ -1,0 +1,42 @@
+[
+    {
+        "question":"lorem lorem1",
+        "option1":"option1",
+        "option2":"option2",
+        "option3":"option3",
+        "option4":"option4",
+        "correctOption": 1,
+        "category":"music",
+        "difficulty":"medium"
+    },
+    {
+        "question":"lorem lorem2",
+        "option1":"option1",
+        "option2":"option2",
+        "option3":"option3",
+        "option4":"option4",
+        "correctOption": 1,
+        "category":"music",
+        "difficulty":"medium"
+    },
+    {
+        "question":"lorem lorem3",
+        "option1":"option1",
+        "option2":"option2",
+        "option3":"option3",
+        "option4":"option4",
+        "correctOption": 1,
+        "category":"music",
+        "difficulty":"medium"
+    },
+    {
+        "question":"lorem lorem4",
+        "option1":"option1",
+        "option2":"option2",
+        "option3":"option3",
+        "option4":"option4",
+        "correctOption": 1,
+        "category":"music",
+        "difficulty":"medium"
+    }
+]
