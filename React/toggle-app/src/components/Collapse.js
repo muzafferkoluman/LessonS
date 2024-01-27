@@ -13,7 +13,7 @@ const Collapse = (props) => {
           aria-expanded="false"
           aria-controls="collapseExample"
         >
-          Link with href
+          Link with href 
         </a>
         
       <div className="collapse show" id={props.href}>
