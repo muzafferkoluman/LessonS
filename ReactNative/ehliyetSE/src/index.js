@@ -10,37 +10,37 @@ const QuizApp = () => {
         <TouchableOpacity
           style={styles.category}
           onPress={() => {
-            navigation.navigate("Playground"), { category: "category1" };
+            navigation.navigate("Playground"), { category: "world-affairs" };
           }}
         >
-          <Text style={styles.categoryTitle}>Category1</Text>
+          <Text style={styles.categoryTitle}>world-affairs</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.category}
           onPress={() => {
-            navigation.navigate("Playground"), { category: "category2" };
+            navigation.navigate("Playground"), { category: "science" };
           }}
         >
-          <Text style={styles.categoryTitle}>Category2</Text>
+          <Text style={styles.categoryTitle}>science</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.category}
           onPress={() => {
-            navigation.navigate("Playground"), { category: "category3" };
+            navigation.navigate("Playground"), { category: "sports" };
           }}
         >
-          <Text style={styles.categoryTitle}>Category3</Text>
+          <Text style={styles.categoryTitle}>sports</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.category}
           onPress={() => {
-            navigation.navigate("Playground"), { category: "category4" };
+            navigation.navigate("Playground"), { category: "technology" };
           }}
         >
-          <Text style={styles.categoryTitle}>Category4</Text>
+          <Text style={styles.categoryTitle}>technology</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
     shadowOpacity:0.3,
     shadowRadius:5,
     elevation:5,
+
     justifyContent:"center",
     alignItems:"center",
   },

@@ -1,42 +1,1022 @@
 [
     {
-        "question":"lorem lorem1",
-        "option1":"option1",
-        "option2":"option2",
-        "option3":"option3",
-        "option4":"option4",
+        "question": "What is the smallest planet in our solar system?",
+        "option1": "Mars",
+        "option2": "Venus",
+        "option3": "Mercury",
+        "option4": "Pluto",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the world's largest social media platform?",
+        "option1": "Twitter",
+        "option2": "Instagram",
+        "option3": "Facebook",
+        "option4": "LinkedIn",
+        "correctOption": 3,
+        "category": "technology",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which country has the world's largest population?",
+        "option1": "India",
+        "option2": "Russia",
+        "option3": "China",
+        "option4": "United States",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Who holds the record for the most goals scored in a single FIFA World Cup tournament?",
+        "option1": "Diego Maradona",
+        "option2": "Pele",
+        "option3": "Ronaldo",
+        "option4": "Just Fontaine",
+        "correctOption": 4,
+        "category": "sports",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the phenomenon where a full moon appears larger and brighter than normal?",
+        "option1": "Supermoon",
+        "option2": "Blue Moon",
+        "option3": "Harvest Moon",
+        "option4": "Blood Moon",
         "correctOption": 1,
-        "category":"category1",
-        "difficulty":"medium"
-    },
-    {
-        "question":"lorem lorem2",
-        "option1":"option1",
-        "option2":"option2",
-        "option3":"option3",
-        "option4":"option4",
+        "category": "science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the largest species of sea turtle?",
+        "option1": "Leatherback",
+        "option2": "Green",
+        "option3": "Hawksbill",
+        "option4": "Loggerhead",
         "correctOption": 1,
-        "category":"category2",
-        "difficulty":"medium"
-    },
-    {
-        "question":"lorem lorem3",
-        "option1":"option1",
-        "option2":"option2",
-        "option3":"option3",
-        "option4":"option4",
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which company is the largest producer of computer processors?",
+        "option1": "Intel",
+        "option2": "AMD",
+        "option3": "Nvidia",
+        "option4": "Apple",
         "correctOption": 1,
-        "category":"category3",
-        "difficulty":"medium"
-    },
-    {
-        "question":"lorem lorem4",
-        "option1":"option1",
-        "option2":"option2",
-        "option3":"option3",
-        "option4":"option4",
+        "category": "technology",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country won the first FIFA World Cup tournament in 1930?",
+        "option1": "Uruguay",
+        "option2": "Brazil",
+        "option3": "Argentina",
+        "option4": "Italy",
         "correctOption": 1,
-        "category":"category4",
-        "difficulty":"medium"
-    }
-]
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the longest river in Africa?",
+        "option1": "Nile",
+        "option2": "Congo",
+        "option3": "Zambezi",
+        "option4": "Niger",
+        "correctOption": 1,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "option1": "Ag",
+        "option2": "Au",
+        "option3": "Fe",
+        "option4": "Cu",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the largest planet in our solar system?",
+        "option1": "Mars",
+        "option2": "Saturn",
+        "option3": "Jupiter",
+        "option4": "Uranus",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the first website ever created?",
+        "option1": "Google",
+        "option2": "Yahoo",
+        "option3": "Amazon",
+        "option4": "CERN",
+        "correctOption": 4,
+        "category": "technology",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which country is home to the world's largest desert?",
+        "option1": "United States",
+        "option2": "China",
+        "option3": "Russia",
+        "option4": "Algeria",
+        "correctOption": 4,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which country has won the most Olympic gold medals of all time?",
+        "option1": "United States",
+        "option2": "Russia",
+        "option3": "China",
+        "option4": "Germany",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the device used to measure wind speed?",
+        "option1": "Barometer",
+        "option2": "Thermometer",
+        "option3": "Anemometer",
+        "option4": "Hygrometer",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the largest planet in our solar system?",
+        "option1": "Mars",
+        "option2": "Saturn",
+        "option3": "Jupiter",
+        "option4": "Uranus",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the first programming language?",
+        "option1": "C",
+        "option2": "Fortran",
+        "option3": "Java",
+        "option4": "Python",
+        "correctOption": 2,
+        "category": "technology",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which country has won the most FIFA World Cup tournaments?",
+        "option1": "Brazil",
+        "option2": "Germany",
+        "option3": "Argentina",
+        "option4": "Italy",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the smallest bone in the human body?",
+        "option1": "Stapes",
+        "option2": "Femur",
+        "option3": "Humerus",
+        "option4": "Tibia",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What does the acronym HTML stand for?",
+        "option1": "Hyperlink Text Markup Language",
+        "option2": "Hypertext Markup Language",
+        "option3": "Hypermedia Text Markup Language",
+        "option4": "Hypertext Transfer Markup Language",
+        "correctOption": 2,
+        "category": "technology",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which city is the capital of Australia?",
+        "option1": "Melbourne",
+        "option2": "Sydney",
+        "option3": "Canberra",
+        "option4": "Brisbane",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "In what year did Usain Bolt break the world record in the 100m sprint?",
+        "option1": "2008",
+        "option2": "2012",
+        "option3": "2016",
+        "option4": "2020",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the boiling point of water in degrees Celsius?",
+        "option1": "100",
+        "option2": "50",
+        "option3": "0",
+        "option4": "-50",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the world's largest coral reef system?",
+        "option1": "Amazon Reef",
+        "option2": "Great Barrier Reef",
+        "option3": "Belize Barrier Reef",
+        "option4": "Mesoamerican Barrier Reef",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the first commercially successful personal computer?",
+        "option1": "IBM PC",
+        "option2": "Apple Macintosh",
+        "option3": "Compaq Portable",
+        "option4": "Atari 800",
+        "correctOption": 1,
+        "category": "technology",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which country is the largest in terms of land area?",
+        "option1": "Russia",
+        "option2": "Canada",
+        "option3": "China",
+        "option4": "United States",
+        "correctOption": 1,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country has won the most Wimbledon tennis singles titles (men's and women's combined)?",
+        "option1": "United States",
+        "option2": "Switzerland",
+        "option3": "Great Britain",
+        "option4": "Australia",
+        "correctOption": 3,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the atomic number of oxygen?",
+        "option1": "6",
+        "option2": "8",
+        "option3": "10",
+        "option4": "12",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which programming language was invented by Guido van Rossum in the 1990s?",
+        "option1": "Java",
+        "option2": "C++",
+        "option3": "Python",
+        "option4": "JavaScript",
+        "correctOption": 3,
+        "category": "technology",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the largest ocean on Earth?",
+        "option1": "Atlantic Ocean",
+        "option2": "Indian Ocean",
+        "option3": "Pacific Ocean",
+        "option4": "Arctic Ocean",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country has won the most Olympic gold medals (summer and winter combined)?",
+        "option1": "United States",
+        "option2": "Russia",
+        "option3": "China",
+        "option4": "Germany",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the process by which plants convert light energy into chemical energy called?",
+        "option1": "Respiration",
+        "option2": "Photosynthesis",
+        "option3": "Digestion",
+        "option4": "Circulation",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which element has the chemical symbol 'Fe'?",
+        "option1": "Iron",
+        "option2": "Gold",
+        "option3": "Copper",
+        "option4": "Silver",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What was the name of the first web browser created by Sir Tim Berners-Lee in 1990?",
+        "option1": "Mosaic",
+        "option2": "Firefox",
+        "option3": "Chrome",
+        "option4": "Safari",
+        "correctOption": 1,
+        "category": "technology",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the largest country in South America by land area?",
+        "option1": "Brazil",
+        "option2": "Argentina",
+        "option3": "Peru",
+        "option4": "Colombia",
+        "correctOption": 1,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which athlete has won the most Olympic medals of all time?",
+        "option1": "Michael Phelps",
+        "option2": "Usain Bolt",
+        "option3": "Carl Lewis",
+        "option4": "Simone Biles",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which planet is the closest to the sun?",
+        "option1": "Mars",
+        "option2": "Venus",
+        "option3": "Mercury",
+        "option4": "Jupiter",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which computer hardware device is used to store data permanently?",
+        "option1": "CPU",
+        "option2": "RAM",
+        "option3": "Hard disk",
+        "option4": "Monitor",
+        "correctOption": 3,
+        "category": "technology",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the currency used in Japan?",
+        "option1": "Dollar",
+        "option2": "Yen",
+        "option3": "Euro",
+        "option4": "Pound",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country won the FIFA World Cup in 2014?",
+        "option1": "Brazil",
+        "option2": "Argentina",
+        "option3": "Germany",
+        "option4": "Spain",
+        "correctOption": 3,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the force that opposes motion between two surfaces in contact?",
+        "option1": "Momentum",
+        "option2": "Friction",
+        "option3": "Gravity",
+        "option4": "Acceleration",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "option1": "Gd",
+        "option2": "Au",
+        "option3": "Ag",
+        "option4": "Cu",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the first commercially successful personal computer?",
+        "option1": "Altair 8800",
+        "option2": "Apple II",
+        "option3": "Commodore PET",
+        "option4": "TRS-80",
+        "correctOption": 2,
+        "category": "technology",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which country is the largest producer of coffee in the world?",
+        "option1": "Brazil",
+        "option2": "Colombia",
+        "option3": "Ethiopia",
+        "option4": "Vietnam",
+        "correctOption": 1,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which athlete has won the most Grand Slam singles titles in tennis?",
+        "option1": "Roger Federer",
+        "option2": "Rafael Nadal",
+        "option3": "Novak Djokovic",
+        "option4": "Serena Williams",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the capital of Australia?",
+        "option1": "Melbourne",
+        "option2": "Sydney",
+        "option3": "Canberra",
+        "option4": "Brisbane",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the formula for water?",
+        "option1": "H2SO4",
+        "option2": "NaCl",
+        "option3": "H2O",
+        "option4": "CO2",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the largest desert in the world?",
+        "option1": "Sahara",
+        "option2": "Arabian",
+        "option3": "Gobi",
+        "option4": "Antarctic",
+        "correctOption": 1,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the world's largest volcano?",
+        "option1": "Mauna Loa",
+        "option2": "Mount Everest",
+        "option3": "Kilauea",
+        "option4": "Mount Kilimanjaro",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Which company created the iPhone?",
+        "option1": "Samsung",
+        "option2": "Apple",
+        "option3": "Microsoft",
+        "option4": "Google",
+        "correctOption": 2,
+        "category": "technology",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which country is the smallest in the world by land area?",
+        "option1": "Monaco",
+        "option2": "Vatican City",
+        "option3": "Nauru",
+        "option4": "San Marino",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the world's largest mammal?",
+        "option1": "Elephant",
+        "option2": "Giraffe",
+        "option3": "Whale",
+        "option4": "Hippopotamus",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the largest moon in our solar system?",
+        "option1": "Europa",
+        "option2": "Ganymede",
+        "option3": "Titan",
+        "option4": "Callisto",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which country is home to the world's longest river?",
+        "option1": "India",
+        "option2": "China",
+        "option3": "Egypt",
+        "option4": "Brazil",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous painting by Leonardo da Vinci that is displayed in the Louvre Museum in Paris?",
+        "option1": "The Mona Lisa",
+        "option2": "The Last Supper",
+        "option3": "The Scream",
+        "option4": "The Starry Night",
+        "correctOption": 1,
+        "category": "art",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the smallest country in Central America?",
+        "option1": "Costa Rica",
+        "option2": "El Salvador",
+        "option3": "Honduras",
+        "option4": "Nicaragua",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the process by which plants make their own food?",
+        "option1": "Photosynthesis",
+        "option2": "Respiration",
+        "option3": "Transpiration",
+        "option4": "Fermentation",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the world's highest mountain peak?",
+        "option1": "Mount Kilimanjaro",
+        "option2": "Mount Everest",
+        "option3": "Mount Fuji",
+        "option4": "Mount McKinley",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the scientist who discovered the theory of relativity?",
+        "option1": "Isaac Newton",
+        "option2": "Galileo Galilei",
+        "option3": "Albert Einstein",
+        "option4": "Stephen Hawking",
+        "correctOption": 3,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which famous novel by Harper Lee explores issues of racism and injustice in the American South?",
+        "option1": "The Catcher in the Rye",
+        "option2": "To Kill a Mockingbird",
+        "option3": "1984",
+        "option4": "Pride and Prejudice",
+        "correctOption": 2,
+        "category": "literature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the largest ocean on Earth?",
+        "option1": "Atlantic Ocean",
+        "option2": "Arctic Ocean",
+        "option3": "Indian Ocean",
+        "option4": "Pacific Ocean",
+        "correctOption": 4,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the largest bird in the world?",
+        "option1": "Ostrich",
+        "option2": "Emu",
+        "option3": "Cassowary",
+        "option4": "Condor",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the capital city of Spain?",
+        "option1": "Barcelona",
+        "option2": "Madrid",
+        "option3": "Seville",
+        "option4": "Valencia",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the largest desert in the world?",
+        "option1": "Gobi Desert",
+        "option2": "Mojave Desert",
+        "option3": "Sahara Desert",
+        "option4": "Arabian Desert",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the first man to walk on the Moon?",
+        "option1": "Neil Armstrong",
+        "option2": "Buzz Aldrin",
+        "option3": "Yuri Gagarin",
+        "option4": "Alan Shepard",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the largest planet in our solar system?",
+        "option1": "Venus",
+        "option2": "Jupiter",
+        "option3": "Saturn",
+        "option4": "Neptune",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the author of 'The Lord of the Rings' trilogy?",
+        "option1": "J.K. Rowling",
+        "option2": "J.R.R. Tolkien",
+        "option3": "George R.R. Martin",
+        "option4": "Stephen King",
+        "correctOption": 2,
+        "category": "literature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous painting by Vincent van Gogh that depicts a starry night sky?",
+        "option1": "The Mona Lisa",
+        "option2": "The Last Supper",
+        "option3": "Starry Night",
+        "option4": "The Scream",
+        "correctOption": 3,
+        "category": "art",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the famous ancient Roman amphitheater that is located in Rome, Italy?",
+        "option1": "The Colosseum",
+        "option2": "The Parthenon",
+        "option3": "The Pantheon",
+        "option4": "The Acropolis",
+        "correctOption": 1,
+        "category": "art",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous basketball player who won six NBA championships with the Chicago Bulls?",
+        "option1": "LeBron James",
+        "option2": "Kobe Bryant",
+        "option3": "Michael Jordan",
+        "option4": "Stephen Curry",
+        "correctOption": 3,
+        "category": "sports",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the largest ocean in the world?",
+        "option1": "Atlantic Ocean",
+        "option2": "Indian Ocean",
+        "option3": "Arctic Ocean",
+        "option4": "Pacific Ocean",
+        "correctOption": 4,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the first satellite launched into space?",
+        "option1": "Explorer 1",
+        "option2": "Sputnik 1",
+        "option3": "Vanguard 1",
+        "option4": "Juno 1",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous detective created by author Arthur Conan Doyle?",
+        "option1": "Hercule Poirot",
+        "option2": "Sam Spade",
+        "option3": "Philip Marlowe",
+        "option4": "Sherlock Holmes",
+        "correctOption": 4,
+        "category": "literature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous Italian opera composer who wrote 'La Traviata' and 'Aida'?",
+        "option1": "Giuseppe Verdi",
+        "option2": "Wolfgang Amadeus Mozart",
+        "option3": "Johann Sebastian Bach",
+        "option4": "Ludwig van Beethoven",
+        "correctOption": 1,
+        "category": "music",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the famous painting by Leonardo da Vinci that depicts a woman with a mysterious smile?",
+        "option1": "The Last Supper",
+        "option2": "The Scream",
+        "option3": "The Mona Lisa",
+        "option4": "The Starry Night",
+        "correctOption": 3,
+        "category": "art",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous Russian ballet company that was founded in 1776?",
+        "option1": "The Royal Ballet",
+        "option2": "The Bolshoi Ballet",
+        "option3": "The Mariinsky Ballet",
+        "option4": "The Paris Opera Ballet",
+        "correctOption": 2,
+        "category": "art",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the famous American singer and actress who starred in 'The Wizard of Oz'?",
+        "option1": "Bette Davis",
+        "option2": "Judy Garland",
+        "option3": "Marilyn Monroe",
+        "option4": "Audrey Hepburn",
+        "correctOption": 2,
+        "category": "music",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous French impressionist painter who painted 'Water Lilies' and 'Impression, Sunrise'?",
+        "option1": "Pablo Picasso",
+        "option2": "Claude Monet",
+        "option3": "Vincent van Gogh",
+        "option4": "Salvador Dali",
+        "correctOption": 2,
+        "category": "art",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the tallest mountain in the world?",
+        "option1": "K2",
+        "option2": "Everest",
+        "option3": "Makalu",
+        "option4": "Kangchenjunga",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the process by which plants make their food?",
+        "option1": "Photosynthesis",
+        "option2": "Respiration",
+        "option3": "Transpiration",
+        "option4": "Fermentation",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous British theoretical physicist who developed the theory of relativity?",
+        "option1": "Stephen Hawking",
+        "option2": "Albert Einstein",
+        "option3": "Isaac Newton",
+        "option4": "Niels Bohr",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the famous Scottish actor who played James Bond in seven movies?",
+        "option1": "Pierce Brosnan",
+        "option2": "Sean Connery",
+        "option3": "Roger Moore",
+        "option4": "Daniel Craig",
+        "correctOption": 2,
+        "category": "movies",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous American director who directed movies such as 'Jaws', 'Jurassic Park', and 'E.T.'?",
+        "option1": "Martin Scorsese",
+        "option2": "Steven Spielberg",
+        "option3": "Quentin Tarantino",
+        "option4": "Christopher Nolan",
+        "correctOption": 2,
+        "category": "movies",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American novelist who wrote 'The Catcher in the Rye'?",
+        "option1": "F. Scott Fitzgerald",
+        "option2": "Ernest Hemingway",
+        "option3": "J.D. Salinger",
+        "option4": "Mark Twain",
+        "correctOption": 3,
+        "category": "literature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous American poet who wrote 'The Waste Land'?",
+        "option1": "Robert Frost",
+        "option2": "William Butler Yeats",
+        "option3": "Sylvia Plath",
+        "option4": "T.S. Eliot",
+        "correctOption": 4,
+        "category": "literature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American author who wrote 'To Kill a Mockingbird'?",
+        "option1": "Harper Lee",
+        "option2": "J.K. Rowling",
+        "option3": "John Steinbeck",
+        "option4": "Ray Bradbury",
+        "correctOption": 1,
+        "category": "literature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the largest organ in the human body?",
+        "option1": "Liver",
+        "option2": "Skin",
+        "option3": "Lungs",
+        "option4": "Heart",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the smallest country in the world?",
+        "option1": "San Marino",
+        "option2": "Monaco",
+        "option3": "Vatican City",
+        "option4": "Liechtenstein",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American singer who is known as the 'King of Pop'?",
+        "option1": "Elvis Presley",
+        "option2": "Michael Jackson",
+        "option3": "Prince",
+        "option4": "Frank Sinatra",
+        "correctOption": 2,
+        "category": "music",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous American singer who is known as the 'Queen of Soul'?",
+        "option1": "Aretha Franklin",
+        "option2": "Whitney Houston",
+        "option3": "Beyonce",
+        "option4": "Mariah Carey",
+        "correctOption": 1,
+        "category": "music",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American rock band who sang the song 'Stairway to Heaven'?",
+        "option1": "Led Zeppelin",
+        "option2": "The Beatles",
+        "option3": "The Rolling Stones",
+        "option4": "Pink Floyd",
+        "correctOption": 1,
+        "category": "music",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American sportsperson who is considered one of the greatest basketball players of all time?",
+        "option1": "LeBron James",
+        "option2": "Kobe Bryant",
+        "option3": "Michael Jordan",
+        "option4": "Magic Johnson",
+        "correctOption": 3,
+        "category": "sports",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is the name of the famous American football player who is considered one of the greatest quarterbacks of all time?",
+        "option1": "Tom Brady",
+        "option2": "Joe Montana",
+        "option3": "Dan Marino",
+        "option4": "Brett Favre",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous Jamaican sprinter who holds the world record for the 100m and 200m races?",
+        "option1": "Usain Bolt",
+        "option2": "Tyson Gay",
+        "option3": "Asafa Powell",
+        "option4": "Yohan Blake",
+        "correctOption": 1,
+        "category": "sports",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the capital city of Brazil?",
+        "option1": "Rio de Janeiro",
+        "option2": "Brasília",
+        "option3": "São Paulo",
+        "option4": "Belo Horizonte",
+        "correctOption": 2,
+        "category": "world-affairs",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which planet in our solar system is known as the 'Red Planet'?",
+        "option1": "Jupiter",
+        "option2": "Mars",
+        "option3": "Venus",
+        "option4": "Mercury",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the largest continent in the world?",
+        "option1": "Europe",
+        "option2": "Africa",
+        "option3": "Asia",
+        "option4": "North America",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which famous British author wrote the 'Harry Potter' series of books?",
+        "option1": "J.K. Rowling",
+        "option2": "Stephenie Meyer",
+        "option3": "Suzanne Collins",
+        "option4": "Veronica Roth",
+        "correctOption": 1,
+        "category": "literature",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which famous American author wrote the novel 'To Kill a Mockingbird'?",
+        "option1": "Harper Lee",
+        "option2": "John Steinbeck",
+        "option3": "Ernest Hemingway",
+        "option4": "F. Scott Fitzgerald",
+        "correctOption": 1,
+        "category": "literature",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American actor who played the character of 'Forrest Gump' in the movie of the same name?",
+        "option1": "Tom Hanks",
+        "option2": "Leonardo DiCaprio",
+        "option3": "Brad Pitt",
+        "option4": "George Clooney",
+        "correctOption": 1,
+        "category": "movies",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the name of the famous American actor who played the character of 'Iron Man' in the Marvel Cinematic Universe?",
+        "option1": "Robert Downey Jr.",
+        "option2": "Chris Evans",
+        "option3": "Chris Hemsworth",
+        "option4": "Mark Ruffalo",
+        "correctOption": 1,
+        "category": "movies",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the name of the famous American actress who played the character of 'Katniss Everdeen' in the movie 'The Hunger Games'?",
+        "option1": "Emma Watson",
+        "option2": "Jennifer Aniston",
+        "option3": "Jennifer Lawrence",
+        "option4": "Anne Hathaway",
+        "correctOption": 3,
+        "category": "movies",
+        "difficulty": "easy"
+      }
+    ]
