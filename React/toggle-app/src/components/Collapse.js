@@ -10,7 +10,7 @@ class Collapse extends React.Component {
   }
   showMore() {
     this.setState ( {
-      showContent: true,
+      showContent: false,
     })
   }
 
