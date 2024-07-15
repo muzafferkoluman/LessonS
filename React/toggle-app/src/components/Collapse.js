@@ -7,18 +7,21 @@ class Collapse extends React.Component {
     this.state = {
       showContent: false,
     };
+    this.changeState = "Link with href";
+    this.showMore = this.showMore.bind(this);
   }
   showMore() {
-    this.setState ( {
+    this.setState({
       showContent: true,
-    })
+      changeState:"Merhaba"
+    });
   }
 
   render() {
     return (
       <div>
         <button className="btn btn-primary w-100" onClick={this.showMore}>
-          Link with href
+          {this.changeState}
         </button>
 
         {this.state.showContent ? (
