@@ -26,9 +26,9 @@ const Todo = () => {
 
       {/* Listing tasks */}
       <div className="mt-5">
-        <Todoitem text="I am learning React with Victo"/>
-        <Todoitem text="I am enjoying TypeScript with Victo"/>
-        <Todoitem text="I am studing AWS with Victo"/>
+        <Todoitem/>
+        <Todoitem/>
+        <Todoitem/>
         
       </div>
     </div>
