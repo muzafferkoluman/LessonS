@@ -1,10 +1,10 @@
+import Todo from "./components/Todo"
 function App() {
-  return(
-    <h1 className="bg-blue-500 text-3xl">
-      Hello, World!
-    </h1>
-  )
- 
+  return (
+    <div>
+      <Todo />
+    </div>
+  );
 }
 
-export default App
+export default App;
