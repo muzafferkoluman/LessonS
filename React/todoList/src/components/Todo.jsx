@@ -14,6 +14,13 @@ const Todo = () => {
     }
     console.log(inputText);
     data.current.value = "";
+
+    const newTodo = {
+        id: todos.length()+1,
+        text: inputText,
+        isComplete: false
+    }
+    setTodos((prev) => [...prev,newTodo])
   };
 
   return (
