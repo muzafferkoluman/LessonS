@@ -20,7 +20,7 @@ const Todo = () => {
         text: inputText,
         isComplete: false
     }
-    setTodos((prev) => [...prev,newTodo])
+    setTodos((prev) => [...prev,newTodo]);
   };
 
   return (
