@@ -4,7 +4,11 @@ import { CiCirclePlus } from "react-icons/ci";
 import Todoitem from "./Todoitem";
 
 const Todo = () => {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState(
+    localStorage.getItem("todos")
+      ? JSON.parse(localStorage.getItem("todos"))
+      : []
+  );
   const data = useRef();
 
   const addTodo = () => {
@@ -24,23 +28,21 @@ const Todo = () => {
   };
   const toggle = (id) => {
     setTodos((prevTodos) =>
-       prevTodos.map((todo) => {
-        if(todo.id ===id){
-          return {...todo, isComplete: !todo.isComplete}
+      prevTodos.map((todo) => {
+        if (todo.id === id) {
+          return { ...todo, isComplete: !todo.isComplete };
         }
-        return todo
-      }))
-    
-  }
+        return todo;
+      })
+    );
+  };
 
-  const deletedTodo =(id)=>{
-    setTodos((prevTodos) =>
-    prevTodos.filter((todo) => todo.id!==id))
-
-  }
+  const deletedTodo = (id) => {
+    setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
+  };
 
   useEffect(() => {
-    console.log(todos);
+    localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
   return (
@@ -70,7 +72,12 @@ const Todo = () => {
       {/* Listing tasks */}
       <div className="mt-5">
         {todos.map((todo) => (
-          <Todoitem key={todo.id} todo={todo} toggle={toggle} deletedTodo={deletedTodo} />
+          <Todoitem
+            key={todo.id}
+            todo={todo}
+            toggle={toggle}
+            deletedTodo={deletedTodo}
+          />
         ))}
       </div>
     </div>
