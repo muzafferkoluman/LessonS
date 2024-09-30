@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { FaClipboardList, FaPlus } from "react-icons/fa";
 import { CiCirclePlus } from "react-icons/ci";
 import Todoitem from "./Todoitem";
@@ -22,6 +22,10 @@ const Todo = () => {
     };
     setTodos((prev) => [...prev, newTodo]);
   };
+
+  useEffect(() => {
+    console.log(todos);
+  }, [todos]);
 
   return (
     <div className="place-self-center bg-slate-100 w-[450px] h-[600px] p-12 flex flex-col gap-8 rounded-xl">
