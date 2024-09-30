@@ -13,14 +13,14 @@ const Todo = () => {
       return null;
     }
     console.log(inputText);
-    data.current.value = "";
-
+    
     const newTodo = {
       id: todos.length + 1,
       text: inputText,
       isComplete: false,
     };
     setTodos((prev) => [...prev, newTodo]);
+    data.current.value = "";
   };
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const Todo = () => {
     <div className="place-self-center bg-slate-100 w-[450px] h-[600px] p-12 flex flex-col gap-8 rounded-xl">
       {/* Title Area*/}
       <h1 className="text-3xl font-bold tracking-wider flex items-center gap-3">
-        <FaClipboardList />
+        <FaClipboardList />  
         Todo App{" "}
       </h1>
 
@@ -53,9 +53,15 @@ const Todo = () => {
 
       {/* Listing tasks */}
       <div className="mt-5">
-        <Todoitem />
-        <Todoitem />
-        <Todoitem />
+        {
+          todos.map((todo) => (
+            <Todoitem/>
+          ))
+        }
+        
+
+
+
       </div>
     </div>
   );
