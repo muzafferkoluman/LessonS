@@ -33,6 +33,12 @@ const Todo = () => {
     
   }
 
+  const deletedTodo =()=>{
+    setTodos((prevTodos) =>
+    prevTodos.filter((todo) => !todo.isComplete))
+
+  }
+
   useEffect(() => {
     console.log(todos);
   }, [todos]);

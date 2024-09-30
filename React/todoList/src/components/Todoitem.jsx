@@ -4,7 +4,7 @@ import { FaRegCircle, FaRegTrashAlt, FaRegCheckCircle } from "react-icons/fa";
 const Todoitem = ({ todo, toggle }) => {
   return (
     <div
-      className="flex items-center w-full py-4 px-2 gap-2 border-b  rounded-lg cursor-pointer"
+      className="flex items-center w-full py-4 px-2 gap-2 border-b  rounded-lg cursor-pointer select-none"
       onClick={() => toggle(todo.id)}
     >
       {todo.isComplete ? (
