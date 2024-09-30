@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegCircle, FaRegTrashAlt, FaRegCheckCircle } from "react-icons/fa";
 
-const Todoitem = ({ todo, toggle }) => {
+const Todoitem = ({ todo, toggle,deletedTodo }) => {
   return (
     <div
       className="flex items-center w-full py-4 px-2 gap-2 border-b  rounded-lg cursor-pointer select-none"
@@ -20,7 +20,7 @@ const Todoitem = ({ todo, toggle }) => {
       >
         {todo.text}
       </p>
-      <FaRegTrashAlt className="size-5 text-[#871231] hover:scale-110 transition-all" />
+      <FaRegTrashAlt className="size-5 text-[#871231] hover:scale-110 transition-all" onClick={()=>deletedTodo(todo.id)} />
     </div>
   );
 };

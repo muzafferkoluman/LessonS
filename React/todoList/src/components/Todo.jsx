@@ -33,9 +33,9 @@ const Todo = () => {
     
   }
 
-  const deletedTodo =()=>{
+  const deletedTodo =(id)=>{
     setTodos((prevTodos) =>
-    prevTodos.filter((todo) => !todo.isComplete))
+    prevTodos.filter((todo) => todo.id!==id))
 
   }
 
@@ -70,7 +70,7 @@ const Todo = () => {
       {/* Listing tasks */}
       <div className="mt-5">
         {todos.map((todo) => (
-          <Todoitem key={todo.id} todo={todo} toggle={toggle} />
+          <Todoitem key={todo.id} todo={todo} toggle={toggle} deletedTodo={deletedTodo} />
         ))}
       </div>
     </div>
