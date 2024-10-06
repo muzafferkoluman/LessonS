@@ -1,35 +1,57 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+
+import "./App.css";
+
+const cards = [
+  {
+    id: 1,
+    path: "/img/apple.png",
+    matched: false,
+  },
+  {
+    id: 2,
+    path: "/img/apricot.png",
+    matched: false,
+  },
+  {
+    id: 3,
+    path: "/img/banana.png",
+    matched: false,
+  },
+  {
+    id: 4,
+    path: "/img/cherry.png",
+    matched: false,
+  },
+  {
+    id: 5,
+    path: "/img/coconut.png",
+    matched: false,
+  },
+  {
+    id: 6,
+    path: "/img/grape.png",
+    matched: false,
+  },
+];
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <section className="flex flex-col items-center justify-center gap-5">
+      <h1 className="text-3xl font-semibold text-center">Guessing Game</h1>
+      <button className="bg-[#00A265] px-3 py-2 rounded hover:-translate-y-1 hover:shadow-lg transition-all">
+        Start Game
+      </button>
+      <div className="grid grid-cols-3 gap-2 mt-">
+        {cards.map((card) => (
+          <div className="w-[150px] ">
+            <img src={card.path} className=" w-full h-[140px]" alt="" />
+            <img src="/img/cover-2.png" alt="" />
+          </div>
+        ))}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </section>
+  );
 }
 
-export default App
+export default App;
