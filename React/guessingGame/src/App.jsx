@@ -45,7 +45,7 @@ function App() {
       <div className="grid grid-cols-3 gap-2 mt-">
         {cards.map((card) => (
           <div className="w-[150px] ">
-            <img src={card.path} className=" w-full h-[140px]" alt="" />
+            <img src={card.path} className=" w-full h-[130px]" alt="" />
             <img src="/img/cover-2.png" alt="" />
           </div>
         ))}
