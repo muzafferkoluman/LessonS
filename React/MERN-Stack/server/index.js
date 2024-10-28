@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
-const PORT = 5001;
+const PORT = 5001; //process.env.PORT
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
