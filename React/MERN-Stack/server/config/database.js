@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const database = () => {
   mongoose
-    .connect("MONGO_URL", {
+    .connect("mongodb://localhost:27017/mernDB", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
