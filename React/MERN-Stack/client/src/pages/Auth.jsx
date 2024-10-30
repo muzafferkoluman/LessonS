@@ -19,7 +19,7 @@ const Auth = () => {
             {signUp ? <span onClick={()=>setSignUp(false)}>Already have an account? Login</span> : <span onClick={()=>setSignUp(true)}>Don't have an account</span>}
             
         </div>
-        <div className="cursor-pointer hover:bg-indigo-800 w-full p-2 text-center bg-indigo-500 text-gray-50">
+        <div className="button-style">
           {signUp ? "Sing Up" : "Register"}
         </div>
       </div>

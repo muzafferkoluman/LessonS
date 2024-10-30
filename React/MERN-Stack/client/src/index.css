@@ -6,4 +6,7 @@
     .input-style{
         @apply border p-2 rounded-md outline-none;
     }
+    .button-style{
+        @apply bg-blue-500 hover:bg-blue-700 text-center w-full p-2 cursor-pointer text-white font-bold  rounded;
+        }
 }
