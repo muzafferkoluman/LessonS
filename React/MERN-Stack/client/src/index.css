@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .input-style{
+        @apply border p-2 rounded-md outline-none;
+    }
+}
