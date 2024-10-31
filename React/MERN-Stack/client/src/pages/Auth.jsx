@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { loginAction, registerAction } from "../redux/actions/auth";
+import { useDispatch } from "react-redux";
 
 const Auth = () => {
   const [signUp, setSignUp] = useState(true);
@@ -7,11 +9,20 @@ const Auth = () => {
     email: "",
     password: "",
   });
+  const dispatch = useDispatch();
 
   const onChangeFunc = (e) => {
     setAuthData({ ...authData, [e.target.name]: e.target.value });
   };
-  console.log("authData", authData)
+
+  const authFunc = () => {
+    if (signUp) {
+      dispatch(registerAction(authData));
+    } else {
+      dispatch(loginAction(authData));
+    }
+  };
+  console.log("authData", authData);
 
   return (
     <div className="w-full h-screen bg-gray-100 flex items-center justify-center fixed top-0 right-0 bottom-0 left-0 z-50">
@@ -56,7 +67,9 @@ const Auth = () => {
             <span onClick={() => setSignUp(true)}>Don't have an account</span>
           )}
         </div>
-        <div className="button-style">{signUp ? "Sing Up" : "Register"}</div>
+        <div onClick={authFunc} className="button-style">
+          {signUp ? "Sing Up" : "Register"}
+        </div>
       </div>
     </div>
   );

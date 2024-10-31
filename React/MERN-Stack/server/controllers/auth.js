@@ -5,26 +5,36 @@ const bcrypt = require("bcryptjs");
 const register = async (req, res) => {
   try {
     const { username, email, password } = req.body;
+
+    // User presence check
     const user = await AuthSchema.findOne({ email });
     if (user) {
-      return res.status(500).json({ message: "Email already exists" });
+      return res.status(400).json({ message: "Email already exists" });
     }
+
+    // Password length check
     if (password.length < 6) {
       return res
-        .status(500)
+        .status(400)
         .json({ message: "Password must be at least 6 characters" });
     }
-    const passwordHash = await bcrypt.hash(password, 12);
 
-    if (isEmail(email)) {
-      return res.status(500).json({ message: "Invalid email" });
+    // Email verification
+    if (!isEmail(email)) {
+      return res.status(400).json({ message: "Invalid email" });
     }
 
+    // Password hashing
+    const passwordHash = await bcrypt.hash(password, 12);
+
+    // Create a new user
     const newUser = await AuthSchema.create({
       username,
       email,
       password: passwordHash,
     });
+
+    // Token creation
     const token = jwt.sign({ id: newUser._id }, "SECRET_KEY", {
       expiresIn: "1h",
     });
@@ -35,21 +45,28 @@ const register = async (req, res) => {
       message: "User created successfully",
       token,
     });
-  } catch (error) {}
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 };
 
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
+
+    // Finding users
     const user = await AuthSchema.findOne({ email });
     if (!user) {
-      return res.status(500).json({ message: "Email not found" });
-    }
-    const passwordCompare = await bcrypt.compare(password, user.password);
-    if (!passwordCompare) {
-      return res.status(500).json({ message: "Invalid password" });
+      return res.status(400).json({ message: "Email not found" });
     }
 
+    // Password verification
+    const passwordCompare = await bcrypt.compare(password, user.password);
+    if (!passwordCompare) {
+      return res.status(400).json({ message: "Invalid password" });
+    }
+
+    // Token creation
     const token = jwt.sign({ id: user._id }, "SECRET_KEY", {
       expiresIn: "1h",
     });
@@ -61,14 +78,14 @@ const login = async (req, res) => {
     });
 
   } catch (error) {
-    return res.status(500).json({msg:error.message})
+    res.status(500).json({ message: error.message });
   }
 };
 
+// Email verification function
 function isEmail(emailAddress) {
   let regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (emailAddress.match(regex)) return true;
-  else return false;
+  return regex.test(emailAddress); // Returns true if email is valid
 }
 
 module.exports = { register, login };
