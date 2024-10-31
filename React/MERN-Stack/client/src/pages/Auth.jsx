@@ -8,7 +8,10 @@ const Auth = () => {
     password: "",
   });
 
-  const onChangeFunc = (e) => {};
+  const onChangeFunc = (e) => {
+    setAuthData({ ...authData, [e.target.name]: e.target.value });
+  };
+  console.log("authData", authData)
 
   return (
     <div className="w-full h-screen bg-gray-100 flex items-center justify-center fixed top-0 right-0 bottom-0 left-0 z-50">
