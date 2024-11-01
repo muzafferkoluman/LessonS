@@ -3,8 +3,11 @@ import Home from "./pages/Home";
 import Auth from "./pages/Auth";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import useToken from "./hooks/useToken";
 
 function App() {
+  const [token] = useToken()
+  console.log(token,"test")
   return (
     <div>
       <BrowserRouter>
