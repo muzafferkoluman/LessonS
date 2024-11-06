@@ -16,6 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={!token.token ? <Link to={"/auth"}/>: <Home />} /> */}
           <Route path="/auth" element={<Auth />} />
         </Routes>
       </BrowserRouter>
