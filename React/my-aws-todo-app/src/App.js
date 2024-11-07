@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
+import { useState,useRef } from "react";
 import "./App.css";
-import { useState } from "react";
 
 function App() {
   const { task, setTask } = useState("");
+  const inputRef = useRef();
 
   return <div>
-    
+
   </div>;
 }
 
