@@ -1,6 +1,5 @@
 import { useState, useRef } from "react";
 import AWS from "aws-sdk";
-import Home from "./components/Home";
 
 // AWS configuration
 AWS.config.update({
@@ -39,8 +38,9 @@ function App() {
     <div>
       <div>
         <div>
+          <h1 className="text-6xl text-white text-center">Test</h1>
           <input type="text" placeholder="New Task" ref={inputRef} />
-          <button onClick={addTask}>Add Task</button>
+          <button onClick={addTask}>Add Tasks</button>
         </div>
       </div>
     </div>
