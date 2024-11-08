@@ -5,8 +5,8 @@ import Home from "./components/Home";
 // AWS configuration
 AWS.config.update({
   region: "eu-north-1",
-  accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID, 
-  secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY, 
+  accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
+  secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
 });
 
 const sns = new AWS.SNS();
@@ -14,7 +14,7 @@ const sns = new AWS.SNS();
 const notifyTaskAddition = (task) => {
   const params = {
     Message: `New task added: ${task}`,
-    TopicArn: "arn:aws:sns:eu-north-1:211125495898:TaskUpdates", 
+    TopicArn: "arn:aws:sns:eu-north-1:211125495898:TaskUpdates",
   };
 
   sns.publish(params, (err, data) => {
@@ -31,7 +31,7 @@ function App() {
     const task = inputRef.current.value;
     setTasks([...tasks, task]);
     inputRef.current.value = "";
-    
+
     notifyTaskAddition(task);
   };
 
@@ -39,17 +39,8 @@ function App() {
     <div>
       <div>
         <div>
-          <input
-            type="text"
-            placeholder="New Task"
-            ref={inputRef} 
-          />
-          <button
-            className="bg-blue-500 text-white font-bold py-2 px-4 rounded"
-            onClick={addTask}
-          >
-            Add Task
-          </button>
+          <input type="text" placeholder="New Task" ref={inputRef} />
+          <button onClick={addTask}>Add Task</button>
         </div>
       </div>
     </div>
