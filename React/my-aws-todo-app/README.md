@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with My AWS Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is a simple to-do list application built with React and integrated with **AWS Simple Notification Service (SNS)** for sending notifications upon adding a new task.
+
+## AWS Integration Details
+
+This app is configured to send notifications to AWS SNS each time a new task is added. The setup involves:
+
+- Configuring AWS SDK in React to communicate with AWS services.
+- Setting up an SNS Topic in AWS for notifications.
+- Storing AWS credentials securely via environment variables.
 
 ## Available Scripts
 
@@ -8,24 +16,24 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload if you make edits.  
 You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in interactive watch mode.  
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The build is minified, and filenames include hashes.  
+Your app is ready for deployment!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
@@ -33,11 +41,27 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you're not satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## AWS SNS Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **AWS SNS Topic Creation**:
+   - Go to the AWS SNS dashboard and create a new topic (e.g., `TaskUpdates`).
+   - Note the **Topic ARN** for later use.
+
+2. **Environment Variables**:
+   - In the project root, create a `.env` file to store AWS credentials securely.
+   - Add the following lines to `.env`:
+
+     ```plaintext
+     REACT_APP_ACCESS_KEY_ID=your_aws_access_key_id
+     REACT_APP_SECRET_ACCESS_KEY=your_aws_secret_access_key
+     REACT_APP_REGION=your_aws_region # e.g., "eu-north-1"
+     REACT_APP_TOPIC_ARN=your_sns_topic_arn
+     ```
+
+3. **Run the App**:
+   - Start the app with `npm start` and test adding tasks. Notifications should be sent to the SNS topic specified.
 
 ## Learn More
 
@@ -47,24 +71,24 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This section has moved to [Code Splitting Documentation](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This section has moved to [Analyzing the Bundle Size Documentation](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This section has moved to [Progressive Web App Documentation](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 ### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This section has moved to [Advanced Configuration Documentation](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved to [Deployment Documentation](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved to [Troubleshooting Documentation](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
