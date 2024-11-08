@@ -8,17 +8,17 @@ function App() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://9j7l0whl93.execute-api.eu-north-1.amazonaws.com/$default/tasks",
+        'https://dpftmurhgf.execute-api.eu-north-1.amazonaws.com/dev/tasks',
         {
           name: taskName,
         }
       );
-
-      console.log(response.data.message);
+      alert(response.data.message);
     } catch (error) {
-      console.log("There was an error", error);
+      console.error('There was an error!', error);
     }
   };
+  
 
   return (
     <div>
