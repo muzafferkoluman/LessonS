@@ -10,6 +10,16 @@ This app is configured to send notifications to AWS SNS each time a new task is 
 - Setting up an SNS Topic in AWS for notifications.
 - Storing AWS credentials securely via environment variables.
 
+## Technologies Used
+
+- **React** - For building the user interface.
+- **AWS SNS** - For sending notifications when a new task is added.
+- **AWS SDK** - To connect the application to AWS services.
+- **Tailwind CSS** - For styling the application.
+- **useState** - React hook for managing component state.
+- **useRef** - React hook for referencing DOM elements.
+- **Environment Variables (.env)** - To securely store sensitive AWS credentials.
+
 ## Available Scripts
 
 In the project directory, you can run:
