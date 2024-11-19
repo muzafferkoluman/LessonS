@@ -5,14 +5,16 @@ const { join } = require('path');
 module.exports = {
   output: {
     path: join(__dirname, './dist/my-gcp-app'),
+    publicPath: '/',
   },
   devServer: {
     port: 4200,
-    historyApiFallback: {
-      index: '/index.html',
-      disableDotRule: true,
-      htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
-    },
+    historyApiFallback: true,
+    // {
+    //   index: '/index.html',
+    //   disableDotRule: true,
+    //   htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
+    // },
   },
   plugins: [
     new NxAppWebpackPlugin({
