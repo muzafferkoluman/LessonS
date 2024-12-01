@@ -1,26 +1,60 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { db } from "./firebaseConfig";
+import { collection, addDoc, getDocs, deleteDoc, doc } from "firebase/firestore";
 
-function App() {
+interface Todo {
+  id: string;
+  text: string;
+}
+
+const App: React.FC = () => {
+  const [todos, setTodos] = useState<Todo[]>([]);
+  const [newTodo, setNewTodo] = useState<string>("");
+
+  const fetchTodos = async () => {
+    const querySnapshot = await getDocs(collection(db, "todos"));
+    const fetchedTodos = querySnapshot.docs.map((doc) => ({
+      id: doc.id,
+      text: doc.data().text,
+    }));
+    setTodos(fetchedTodos as Todo[]);
+  };
+
+  const addTodo = async () => {
+    if (newTodo.trim()) {
+      const docRef = await addDoc(collection(db, "todos"), { text: newTodo });
+      setTodos([...todos, { id: docRef.id, text: newTodo }]);
+      setNewTodo("");
+    }
+  };
+
+  const deleteTodo = async (id: string) => {
+    await deleteDoc(doc(db, "todos", id));
+    setTodos(todos.filter((todo) => todo.id !== id));
+  };
+
+  useEffect(() => {
+    fetchTodos();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>To-Do List</h1>
+      <input
+        value={newTodo}
+        onChange={(e) => setNewTodo(e.target.value)}
+        placeholder="New task"
+      />
+      <button onClick={addTodo}>Add</button>
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            {todo.text} <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
 export default App;
