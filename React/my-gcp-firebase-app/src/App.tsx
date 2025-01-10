@@ -49,7 +49,7 @@ const App: React.FC = () => {
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>
-            {todo.text} <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+            {todo.text} <button onClick={() => deleteTodo(todo.id)}>Deleted</button>
           </li>
         ))}
       </ul>
